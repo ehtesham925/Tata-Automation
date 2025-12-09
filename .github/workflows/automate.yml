@@ -37,7 +37,7 @@ jobs:
       - name: Run Scraper Script
         env:
           CI: true
-        run: python script.py
+        run: python automate_actions.py
 
       # The Robust Push Strategy
       - name: Commit and Push Progress
