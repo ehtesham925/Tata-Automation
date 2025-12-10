@@ -65,7 +65,7 @@ jobs:
           git stash pop || echo "No stash to pop or conflict auto-resolved"
           
           # 4. Commit and Push
-          git add processed-chunk-1.json
+          git add processed-chunk-2.json
           git commit -m "Update progress: $(date)" || echo "No changes to commit"
           git push origin main
 
